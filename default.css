@@ -1,0 +1,273 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #111111;
+		font-family: 'Didact Gothic', sans-serif;
+		font-size: 12pt;
+		font-weight: 200;
+		color: #FFF;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	a
+	{
+		color: #ee0000;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+	}
+	
+
+
+	.button
+	{
+		display: inline-block;
+		padding: 1em 2em 1em 2em;
+		letter-spacing: 0.10em;
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1em;
+		color: #FFF;
+	}
+		
+	.boxA,
+	.boxB,
+	.boxC
+	{
+		width: 384px;
+	}
+
+	.boxA,
+	.boxB
+	{
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.boxC
+	{
+		float: right;
+	}
+
+	/*<--title-->*/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+		font-size: 2.7em;
+	}
+	
+	.title .byline
+	{
+		font-size: 1.3em;
+		color: rgba(255,255,255,0.60);
+	}
+	
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#wrapper
+	{
+		position: relative;
+		padding: 5em 0em 7em 0em;
+		background: #FFF;
+	}
+
+   
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+		padding: 5em 0em;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		position: absolute;
+		top: 3.6em;
+		left: 0;
+	}
+	
+	#logo h1
+	{
+		font-size: 2.6em;
+		color: #79C255;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,1);
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+		position: absolute;
+		top: 1.0em;
+		right: 0;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		color: rgba(255,255,255,0.80);
+	}
+	
+	#menu li:hover a
+	{
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 6px;
+		color: rgba(255,255,255,1);
+	}
+	
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding-top: 10em;
+		text-align: center;
+	}
+	
+	#banner .title h2
+	{
+		font-size: 4em;
+	}
+	
+	#banner .title .byline
+	{
+		font-size: 2em;
+	}
+	
+	#banner .button
+	{
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 6px;
+		font-weight: 700;
+		font-size: 1em;
+		
+	}
+
+#welcome
+	{
+		position: relative;
+		padding: 7em 0em 7em 0em;
+		text-align: center;
+	}
+	
+	#welcome .container
+	{
+		width: 1000px;
+		padding: 0px 10px;
+		color: rgba(255,255,255,0.8);
+	}
+	
+	#welcome a
+	{
+		color: rgba(255,255,255,1);
+	}
+
+
+/* Copyright */
+
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+	
+	#copyright p
+	{
+		text-align: center;
+		font-size: 1em;
+		color: rgba(255,255,255,0.3);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,0.6);
+	}
+
+	
+
